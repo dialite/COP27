@@ -1,2 +1,2 @@
 # COP27
-This repo is a webpage for Climate Action Innovation Zone COP27 event.
+This repo is a webpage for The World Climate Summit COP27 event.

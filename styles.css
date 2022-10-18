@@ -279,3 +279,57 @@ section {
   color: var(--nutral);
   text-align: center;
 }
+
+#program .section-heading {
+  color: white;
+}
+
+#program .items {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+#program .item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  justify-content: stretch;
+  background-color: #fff1;
+  padding: 1rem;
+  text-align: start;
+}
+
+#program .item-icon {
+  height: 3rem;
+  flex-grow: 0;
+}
+
+#program .item-icon svg {
+  height: 100%;
+  color: white;
+}
+
+#program .item-title {
+  color: var(--secondary);
+  flex-grow: 1;
+  font-size: 1.5rem;
+}
+
+#program .item-description {
+  color: white;
+  flex-basis: 55%;
+  font-weight: 500;
+}
+
+#program .cta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem 3rem;
+  background-color: var(--secondary);
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 600;
+  align-self: center;
+}

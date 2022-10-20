@@ -73,7 +73,6 @@ const speakers = [
     image: 'nicole.png',
     bio: "Nicola Sturgeon is Scotland's first female First Minister and the first woman to lead any of the devolved UK administrations.",
   },
-  
 ];
 
 const speakersPlaceHolder = document.querySelector('#speakers .persons');

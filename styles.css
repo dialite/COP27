@@ -187,6 +187,11 @@ section {
 #section1 h1 {
   font-weight: 700;
   text-shadow: 0.03em 0.03em 0.02em #0009;
+  background-image: url("img/check.png");
+  background-size: cover;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
 }
 
 #section1 h2 {
@@ -457,6 +462,7 @@ section {
 #sponsors .sponsors-list img {
   opacity: 0.25;
   transition: opacity 300ms;
+  width: 28rem;
 }
 
 #sponsors .sponsors-list img:hover {
@@ -740,5 +746,9 @@ footer .branding {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
+  }
+
+  #sponsors .sponsors-list img {
+    width: 50rem;
   }
 }

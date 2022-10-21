@@ -584,7 +584,7 @@ footer .branding {
   gap: 0.5rem;
   justify-content: center;
   align-items: center;
-  min-height: 10rem;
+  min-height: 12rem;
   position: relative;
   overflow: hidden;
 }
@@ -734,7 +734,6 @@ footer .branding {
   #program .items {
     flex-direction: row;
     justify-content: center;
-    flex-wrap: wrap;
     flex-grow: 0;
     gap: 0.2rem;
   }

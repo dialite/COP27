@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Font awesome link -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/fork-awesome@1.2.0/css/fork-awesome.min.css"
+      integrity="sha256-XoaMnoYC5TH6/+ihMEnospgm0J1PM/nioxbOUdnM8HY="
+      crossorigin="anonymous"
+    />
+    <title>COP27</title>
+  </head>
+  <body>
+    <header>
+
+      <!-- Contact links from font awesome -->
+      <div id="secondary-nav-bar" class="container">
+        <div class="wrapper">
+          <a href="#"><i class="fa fa-mastodon"></i></a>
+          <a href="#"><i class="fa fa-twitter"></i></a>
+          <a href="#">Logout</a>
+          <a href="#">Bookings</a>
+        </div>
+      </div>
+
+      <!-- Navbar with sub-titles link -->
+      <div id="nav-bar">
+        <a href="#" id="logo">COP27<span>2022</span></a>
+        <nav id="menu">
+          <span id="menu-close-btn">×</span>
+          <a href="#" class="home-link">Home</a>
+          <a href="#program">Program</a>
+          <a href="#speakers">Speakers</a>
+          <a href="#sponsors">Sponsors</a>
+          <a href="./about.html">About</a>
+        </nav>
+        <a href="#" id="menu-toggler">
+
+          <!-- Scalable vector graphics for hamburger -->
+          <svg
+            class="w-6 h-6"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path stroke-width="3" d="M4 6h16M4 12h16M4 18h16"></path>
+          </svg>
+        </a>
+      </div>
+    </header>
+
+    <!-- Title welcome page section -->
+    <section id="section1" class="container">
+      <div class="wrapper">
+        <img src="img/bg-bob.png" class="shape-set" alt="" />
+        <h1>World Climate Summit - COP27</h1>
+        <h4>The Investment COP</h4>
+        <h2>"Sustainable Environment"</h2>
+        <p class="description">
+          World Climate Summit -
+          The Investment COP will utilise a decade of experience to bring together
+          high-level representatives from the public and private sectors including
+          businesses, investors, governments, policymakers, innovators, academia and environmental
+          <influencers class=""></influencers>
+        </p>
+        <h3>7th - 18th November, 2022</h3>
+        <p class="location">Sharm El-Sheikh, Egypt</p>
+      </div>
+    </section>
+
+    <!-- Main Program Events -->
+    <section id="program">
+      <h2 class="section-heading">Main Event</h2>
+      <div class="items">
+        <div class="item">
+          <img src="img/icons-1.svg" class="item-icon" alt="" />
+          <h3 class="item-title">Lecture</h3>
+          <p class="item-description">
+            Lecture to address the climate emergency by challenging existing practices and
+            exploring new ideas to drive tangible results
+          </p>
+        </div>
+        <div class="item">
+          <img src="img/icons-5.svg" class="item-icon" alt="" />
+          <h3 class="item-title">Interaction</h3>
+          <p class="item-description">
+            Both events bring together thought-leaders, industry experts and dynamic organisations
+          </p>
+        </div>
+        <div class="item">
+          <img src="img/icons-3.svg" class="item-icon" alt="" />
+          <h3 class="item-title">Awards</h3>
+          <p class="item-description">
+            Awards
+          </p>
+        </div>
+        <div class="item">
+          <img src="img/icons-4.svg" class="item-icon" alt="" />
+          <h3 class="item-title">Forum</h3>
+          <p class="item-description">
+            Have a chance to share your thoughts and ideas to profer a way
+            forward
+          </p>
+        </div>
+        <div class="item">
+          <img src="img/icons-2.svg" class="item-icon" alt="" />
+          <h3 class="item-title">COP27</h3>
+          <p class="item-description">Goals and targets of the Summit</p>
+        </div>
+      </div>
+      <a href="#" class="cta">Participate</a>
+    </section>
+
+    <!-- Event Speakers -->
+    <section id="speakers" class="container">
+      <div class="wrapper">
+        <h2 class="section-heading">Speakers</h2>
+        <div class="persons"></div>
+        <a href="#" id="toggle-more-speakers" class="more">
+          More
+          <svg
+            class="w-6 h-6"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M19 9l-7 7-7-7"
+            ></path>
+          </svg>
+        </a>
+      </div>
+    </section>
+
+    <!-- Sponsors and Partners -->
+    <section id="sponsors">
+      <h2 class="section-heading">Partners</h2>
+      <div class="sponsors-list">
+        <img
+          src="img/climate-partners.png"
+          title="sabmiller"
+          alt="sabmiller"
+        />
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer id="index" class="container">
+      <div class="wrapper">
+        <div class="branding">
+          Climate Summit
+        </div>
+        <div class="info">
+          <p class="copyright">
+            &copy; 2022 COP<br />Some Rights Reserved<br />CC BY-SA 4.0
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="index.js"></script>
+  </body>
+</html>

@@ -464,6 +464,12 @@ section {
   width: 28rem;
 }
 
+#partners .partners-list img {
+  opacity: 0.25;
+  transition: opacity 300ms;
+  width: 28rem;
+}
+
 #sponsors .sponsors-list img:hover {
   opacity: 0.75;
 }
@@ -489,12 +495,6 @@ section {
   align-content: flex-start;
   gap: 2rem;
   margin-top: 2rem;
-}
-
-#partners .partners-list img {
-  opacity: 0.25;
-  transition: opacity 300ms;
-  width: 28rem;
 }
 
 #partners .partners-list img:hover {
@@ -786,7 +786,7 @@ footer .branding {
   #sponsors .sponsors-list img {
     width: 50rem;
   }
-  
+
   #can {
     background: #333;
     color: #fff;

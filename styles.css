@@ -61,7 +61,7 @@ header {
   display: flex;
   flex-direction: column;
   color: var(--primary);
-  position: fixed;
+  position: absolute;
   top: 0;
   inset-inline: 0;
   z-index: 9;
@@ -142,7 +142,6 @@ header #menu-toggler {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: white;
   border-end-end-radius: 1rem;
   justify-self: start;
   flex-grow: 0;
@@ -632,6 +631,7 @@ footer .branding {
     background-color: white;
     box-shadow: 0 0.2rem 1rem #0003;
     flex-direction: column;
+    position: fixed;
   }
 
   #secondary-nav-bar .wrapper {

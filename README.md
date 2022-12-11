@@ -25,7 +25,7 @@ This repo is a webpage for Climate Action Innovation Zone COP27 event.
 7. Also, you can navigate to your folder using a console.
 8. Then run git clone https://github.com/dialite/COP27/tree/Climate-Summit
 
-Here is a link directly to the repository page: https://github.com/dialite/COP27/tree/Climate-Summit
+Here is a Live Demo link for the project:  https://dialite.github.io/COP27/
 
 
 ## Live Demo (if available)
